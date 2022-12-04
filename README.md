@@ -4,7 +4,7 @@ Downloads all .png and .jpg from a given subreddit and saves them to ~/Pictures/
 intended to be used with feh.
 
 # usage
-`bash
+`
 ./reddit-images.sh wallpaper cyberpunk some_subreddit_that_does_not_exist
 `
 
