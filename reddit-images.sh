@@ -3,8 +3,8 @@
 print_usage() {
 	echo "Usage: $0 [--limit <value>] [--minsize <value>] [--include-animated] [--output-dir <directory>] [--no-fzf] [--debug] <subreddit1> [<subreddit2> ...]"
 	echo "Options:"
-	echo "  --limit             Set the limit value (default: 2000)"
-	echo "  --minsize           Set the minsize value (default: 300)"
+	echo "  --limit             Set the limit value (default: 300)"
+	echo "  --minsize           Set the minsize value (default: 2000)"
 	echo "  --include-animated  Include animated content"
 	echo "  --output-dir        Set the output directory for saving images (default: ~/Pictures/wallpapers/reddits)"
 	echo "  --no-fzf            Skip user selection of the downloaded files to get deleted"
