@@ -188,7 +188,7 @@ elif [[ "$no_fzf" == "false" ]]; then
 	selected_files=$(echo "$selected_files" | awk -v dir=$fzf_dir '{ print dir "/" $0 }')
 
 	if [[ -n "$selected_files" ]]; then
-		debug_echo "$selected_files" | xargs rm -v
+        debug_echo $(echo "$selected_files" | xargs rm -v)
 	fi
 	find "$fzf_dir" -type d -empty -delete
 
